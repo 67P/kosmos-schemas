@@ -12,5 +12,11 @@
     "remotestorage"
   ],
   "author": "Kosmos Contributors <mail@kosmos.org>",
-  "license": "MIT"
+  "contributors": [
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/67P/kosmos-schemas.git"
+  }
 }
