@@ -12,11 +12,18 @@
     "remotestorage"
   ],
   "author": "Kosmos Contributors <mail@kosmos.org>",
-  "contributors": [
-  ],
+  "contributors": [],
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/67P/kosmos-schemas.git"
+  },
+  "devDependencies": {
+    "brfs-babel": "^1.0.0"
+  },
+  "browserify": {
+    "transform": [
+      "brfs-babel"
+    ]
   }
 }
