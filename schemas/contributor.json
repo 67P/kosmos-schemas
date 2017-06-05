@@ -1,6 +1,6 @@
 {
-  "$schema": "http://json-schema.org/draft-04/schema#",
-  "id": "http://schema.kosmos.org/Contributor",
+  "$schema": "https://json-schema.org/draft-04/schema#",
+  "id": "https://schema.kosmos.org/Contributor",
   "properties": {
     "@context": {
       "type": "string",
