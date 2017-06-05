@@ -1,0 +1,16 @@
+{
+  "name": "kosmos-schemas",
+  "version": "1.0.0",
+  "description": "JSON-LD schemas for Kosmos data formats",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "kosmos",
+    "ipfs",
+    "remotestorage"
+  ],
+  "author": "Kosmos Contributors <mail@kosmos.org>",
+  "license": "MIT"
+}

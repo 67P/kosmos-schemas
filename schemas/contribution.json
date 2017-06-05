@@ -1,0 +1,66 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "http://schemas.kosmos.org/Contribution",
+  "properties": {
+    "@context": {
+      "type": "string",
+      "enum": "https://schema.kosmos.org/",
+      "default": "https://schema.kosmos.org/"
+    },
+    "@type": {
+      "type": "string",
+      "enum": "Contribution",
+      "default": "Contribution"
+    },
+    "contributor": {
+      "properties": {
+        "uri": {
+          "type": "string",
+          "format": "uri",
+          "title": "IPFS URI",
+          "description": "An IPFS object URI containing profile information of the contributor"
+        }
+      },
+      "required": [
+        "ipfs"
+      ],
+      "type": "object"
+    },
+    "kind": {
+      "type": "string",
+      "title": "Kind",
+      "items": {
+        "description": "Type/category of contribution",
+        "enum": [
+          "dev",
+          "design",
+          "ops",
+          "docs",
+          "community"
+        ]
+      },
+      "type": "array"
+    },
+    "description": {
+      "type": "string",
+      "title": "Description",
+      "description": "A summary of the contribution. Can be manually entered or automatically generated."
+    },
+    "url": {
+      "type": "string",
+      "format": "uri",
+      "title": "URL",
+      "description": "A URL pointing to human-readable details of the contribution"
+    },
+    "details": {
+      "type": "object",
+      "properties": {}
+    }
+  },
+  "required": [
+    "contributor",
+    "kind",
+    "description"
+  ],
+  "type": "object"
+}
