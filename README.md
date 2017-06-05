@@ -11,6 +11,10 @@ validator:
 let tv4 = require('tv4');
 let schemas = require('kosmos-schemas');
 
+let contributor = {
+  name: "Tyrion"
+}
+
 let result = tv4.validate(contributor, schemas['contributor']);
 
 if (result) {
