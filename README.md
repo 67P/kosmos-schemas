@@ -1,5 +1,5 @@
 This repository/module contains JSON Schema definitions as well as examples for
-Kosmos data formats.
+[Kosmos](https://kosmos.org) data formats.
 
 ## Usage
 
