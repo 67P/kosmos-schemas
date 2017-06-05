@@ -4,12 +4,12 @@
   "properties": {
     "@context": {
       "type": "string",
-      "enum": "https://schema.kosmos.org/",
-      "default": "https://schema.kosmos.org/"
+      "enum": [ "https://schema.kosmos.org" ],
+      "default": "https://schema.kosmos.org"
     },
     "@type": {
       "type": "string",
-      "enum": "Contributor",
+      "enum": [ "Contributor" ],
       "default": "Contributor"
     },
     "kind": {
