@@ -1,0 +1,20 @@
+{
+  "@context": "https://schema.kosmos.org",
+  "@type": "Contributor",
+  "kind": "person",
+  "name": "Râu Cao",
+  "url": "https://sebastian.kip.pe",
+  "accounts": [
+    {
+      "site": "github.com",
+      "username": "skddc",
+      "uid": 842,
+      "url": "https://github.com/skddc/"
+    },
+    {
+      "site": "wiki.kosmos.org",
+      "username": "Basti",
+      "url": "https://wiki.kosmos.org/User:Basti"
+    }
+  ]
+}
