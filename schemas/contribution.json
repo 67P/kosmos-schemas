@@ -29,17 +29,14 @@
     "kind": {
       "type": "string",
       "title": "Kind",
-      "items": {
-        "description": "Type/category of contribution",
-        "enum": [
-          "dev",
-          "design",
-          "ops",
-          "docs",
-          "community"
-        ]
-      },
-      "type": "array"
+      "description": "Type/category of contribution",
+      "enum": [
+        "dev",
+        "design",
+        "ops",
+        "docs",
+        "community"
+      ]
     },
     "description": {
       "type": "string",
