@@ -14,7 +14,7 @@
     },
     "contributor": {
       "properties": {
-        "uri": {
+        "ipfs": {
           "type": "string",
           "format": "uri",
           "title": "IPFS URI",
