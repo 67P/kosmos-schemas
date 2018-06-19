@@ -28,4 +28,4 @@ if (result) {
 ## TODO
 
 * Add script for publishing both human- and machine-readable schemas to
-  https://schemas.kosmos.org
+  https://schema.kosmos.org
