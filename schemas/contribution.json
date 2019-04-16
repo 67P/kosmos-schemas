@@ -1,5 +1,5 @@
 {
-  "$schema": "https://json-schema.org/draft-04/schema#",
+  "$schema": "https://json-schema.org/draft-07/schema#",
   "id": "https://schema.kosmos.org/Contribution",
   "properties": {
     "@context": {
@@ -25,6 +25,18 @@
         "ipfs"
       ],
       "type": "object"
+    },
+    "date": {
+      "type": "string",
+      "format": "date",
+      "title": "Date",
+      "description": "Date of contribution (RFC 3339 full-date)"
+    },
+    "time": {
+      "type": "string",
+      "format": "time",
+      "title": "Time",
+      "description": "Time of contribution (RFC 3339 full-time)"
     },
     "kind": {
       "type": "string",
@@ -56,6 +68,7 @@
   },
   "required": [
     "contributor",
+    "date",
     "kind",
     "description"
   ],
