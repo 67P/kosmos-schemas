@@ -1,4 +1,4 @@
-This repository/module contains JSON Schema definitions as well as examples for
+This repository/module contains [JSON Schema](https://json-schema.org/) definitions as well as examples for
 [Kosmos](https://kosmos.org) data formats.
 
 ## Usage
