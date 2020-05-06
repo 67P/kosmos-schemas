@@ -64,7 +64,7 @@
       "type": "string",
       "format": "date",
       "title": "Date",
-      "description": "Date of contribution (RFC 3339 full-date)"
+      "description": "Date when expense was logged/proposed (RFC 3339 full-date)"
     },
     "url": {
       "type": "string",
