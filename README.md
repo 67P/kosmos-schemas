@@ -24,8 +24,3 @@ if (result) {
   console.log(tv4.error);
 }
 ```
-
-## TODO
-
-* Add script for publishing both human- and machine-readable schemas to
-  https://schema.kosmos.org
