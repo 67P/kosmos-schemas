@@ -10,7 +10,7 @@
     "currency",
     "amount"
   ],
-  "additionalProperties": false,
+  "additionalProperties": true,
   "properties": {
     "@context": {
       "type": "string",
@@ -97,6 +97,11 @@
           }
         ]
       }
+    },
+    "details": {
+      "type": "object",
+      "title": "Tag",
+      "properties": {}
     }
   }
 }
