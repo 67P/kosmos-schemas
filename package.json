@@ -11,11 +11,7 @@
     "kosmos",
     "remotestorage"
   ],
-  "author": "Kosmos Contributors <mail@kosmos.org>",
-  "contributors": [
-    "Sebastian Kippe (https://sebastian.kip.pe)",
-    "Garret Alfert (http://garretalfert.com)"
-  ],
+  "author": "Kosmos Contributors",
   "license": "MIT",
   "repository": {
     "type": "git",
