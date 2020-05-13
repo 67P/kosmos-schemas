@@ -43,12 +43,14 @@
       "title": "Kind",
       "description": "Type/category of contribution",
       "enum": [
+        "bureaucracy",
         "dev",
         "design",
         "ops",
         "docs",
         "community",
-        "special"
+        "special",
+        "qa"
       ]
     },
     "description": {
