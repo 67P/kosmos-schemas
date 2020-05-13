@@ -1,0 +1,9 @@
+{
+  "title": "Server rent",
+  "description": "Dedicated server: andromeda.kosmos.org, April 2020",
+  "currency": "EUR",
+  "amount": 39.00,
+  "date": "2020-05-06",
+  "url": "https://wiki.kosmos.org/Infrastructure#Hetzner",
+  "tags": ["infrastructure", "server", "hetzner"]
+}
