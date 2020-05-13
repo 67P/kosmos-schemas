@@ -82,10 +82,8 @@
       "description": "Tags for organizing, filtering, sorting, etc.",
       "default": [],
       "items": {
-        "$id": "#/properties/tags/items",
         "anyOf": [
           {
-            "$id": "#/properties/tags/items/anyOf/0",
             "type": "string",
             "title": "Tag",
             "description": "A tag (lowercase dasherized)",
