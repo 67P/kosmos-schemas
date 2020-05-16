@@ -1,5 +1,5 @@
 {
-  "name": "kosmos-schemas",
+  "name": "@kosmos/schemas",
   "version": "2.2.0",
   "description": "JSON-LD schemas for Kosmos data formats",
   "main": "index.js",
