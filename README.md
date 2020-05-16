@@ -1,5 +1,7 @@
-This repository/module contains [JSON Schema](https://json-schema.org/) definitions as well as examples for
-[Kosmos](https://kosmos.org) data formats.
+[![npm](https://img.shields.io/npm/v/@kosmos/schemas)](https://www.npmjs.com/package/@kosmos/schemas)
+
+This repository/module contains [JSON Schema](https://json-schema.org/)
+definitions as well as examples for [Kosmos](https://kosmos.org) data formats.
 
 ## Usage
 
