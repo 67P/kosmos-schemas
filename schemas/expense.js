@@ -1,4 +1,4 @@
-{
+module.exports = {
   "$schema": "http://json-schema.org/draft-07/schema",
   "$id": "https://schema.kosmos.org/Expense",
   "type": "object",
