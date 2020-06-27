@@ -1,4 +1,4 @@
-{
+module.exports = {
   "$schema": "https://json-schema.org/draft-07/schema#",
   "id": "https://schema.kosmos.org/Contribution",
   "properties": {

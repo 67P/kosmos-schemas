@@ -1,7 +1,9 @@
-const fs = require('fs');
-const path = require('path');
+const contribution = require('./schemas/contribution');
+const contributor  = require('./schemas/contributor');
+const expense      = require('./schemas/expense');
 
 module.exports = {
-  "contribution": JSON.parse(fs.readFileSync(path.join(__dirname, 'schemas', 'contribution.json'))),
-  "contributor": JSON.parse(fs.readFileSync(path.join(__dirname, 'schemas', 'contributor.json')))
+  contribution,
+  contributor,
+  expense
 };
